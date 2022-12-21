@@ -3,5 +3,4 @@ function getResponseFromAPI() {
     body: 'A promise always fullfilled',
   });
 }
-
 export default getResponseFromAPI;
