@@ -1,3 +1,7 @@
-export default function getResponseFromAPI() {
-	  return new Promise(() => {});
+function getResponseFromAPI() {
+  return Promise.resolve({
+    body: 'A promise always fullfilled',
+  });
 }
+
+export default getResponseFromAPI;
